@@ -1,0 +1,32 @@
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 145, AID: 0, Miner created.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 196, AID: 1, Miner started mining Iron, current capacity: 0/100.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 239, AID: 0, Miner created.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 245, AID: 1, Miner started mining Coal, current capacity: 0/100.
+ThreadID: 0070fa0300700000, MID: 0, TID: 1, SID: 0, FID: 0, time stamp: 288, AID: 4, Transporter created.
+ThreadID: 0070fa0300700000, MID: 1, TID: 1, SID: 0, FID: 0, time stamp: 348, AID: 5, Transporter is traveling to miner.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 378, AID: 2, Miner finished mining Coal, current capacity: 1/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 378, AID: 2, Miner finished mining Iron, current capacity: 1/100.
+ThreadID: 00a0020400700000, MID: 0, TID: 0, SID: 1, FID: 0, time stamp: 390, AID: 9, Smelter created.
+ThreadID: 00d00a0400700000, MID: 0, TID: 0, SID: 0, FID: 1, time stamp: 429, AID: 13, Foundry created.
+ThreadID: 0000130400700000, MID: 0, TID: 0, SID: 0, FID: 2, time stamp: 477, AID: 13, Foundry created.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 531, AID: 1, Miner started mining Coal, current capacity: 1/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 550, AID: 1, Miner started mining Iron, current capacity: 1/100.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 671, AID: 2, Miner finished mining Coal, current capacity: 2/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 672, AID: 2, Miner finished mining Iron, current capacity: 2/100.
+ThreadID: 0070fa0300700000, MID: 1, TID: 1, SID: 0, FID: 0, time stamp: 679, AID: 6, Transporter take Iron from miner, current fill 1/100.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 817, AID: 1, Miner started mining Coal, current capacity: 2/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 833, AID: 1, Miner started mining Iron, current capacity: 1/100.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 955, AID: 2, Miner finished mining Coal, current capacity: 3/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 965, AID: 2, Miner finished mining Iron, current capacity: 2/100.
+ThreadID: 0070fa0300700000, MID: 0, TID: 1, SID: 0, FID: 1, time stamp: 1051, AID: 5, Transporter is traveling to foundry, carrying: Iron.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1069, AID: 1, Miner started mining Coal, current capacity: 3/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1082, AID: 1, Miner started mining Iron, current capacity: 2/100.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1184, AID: 2, Miner finished mining Coal, current capacity: 4/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1196, AID: 2, Miner finished mining Iron, current capacity: 3/100.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1319, AID: 1, Miner started mining Coal, current capacity: 4/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1329, AID: 1, Miner started mining Iron, current capacity: 3/100.
+ThreadID: 0070fa0300700000, MID: 0, TID: 1, SID: 0, FID: 1, time stamp: 1400, AID: 7, Transporter put Iron ore to foundry. Waiting Ore coal: (0/2), iron: (0/2).
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1431, AID: 2, Miner finished mining Coal, current capacity: 5/100.
+ThreadID: 0010ea0300700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1444, AID: 2, Miner finished mining Iron, current capacity: 4/100.
+ThreadID: 0040f20300700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1567, AID: 1, Miner started mining Coal, current capacity: 5/100.
+ThreadID: 0010ea0300700000,

@@ -1,0 +1,26 @@
+Board Size: 5
+Player Count: 24
+0::Berserk::2::0
+1::Pacifist::2::4
+2::Pacifist::0::2
+3::Ambusher::1::0
+4::Pacifist::0::0
+5::Pacifist::1::3
+6::Dummy::4::2
+7::Pacifist::0::3
+8::Pacifist::3::4
+9::Pacifist::4::1
+10::Ambusher::1::2
+11::Pacifist::3::2
+12::Berserk::4::0
+13::Tracer::2::3
+14::Berserk::2::1
+15::Pacifist::4::3
+16::Berserk::0::4
+17::Pacifist::3::0
+18::Ambusher::1::4
+19::Ambusher::3::1
+20::Berserk::4::4
+21::Tracer::1::1
+22::Ambusher::0::1
+23::Ambusher::3::3

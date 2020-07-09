@@ -1,0 +1,33 @@
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 82, AID: 0, Miner created.
+ThreadID: 0040580c00700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 122, AID: 0, Miner created.
+ThreadID: 0040580c00700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 137, AID: 1, Miner started mining Coal, current capacity: 0/2.
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 123, AID: 1, Miner started mining Iron, current capacity: 0/2.
+ThreadID: 0070600c00700000, MID: 0, TID: 1, SID: 0, FID: 0, time stamp: 154, AID: 4, Transporter created.
+ThreadID: 00a0680c00700000, MID: 0, TID: 2, SID: 0, FID: 0, time stamp: 181, AID: 4, Transporter created.
+ThreadID: 00d0700c00700000, MID: 0, TID: 3, SID: 0, FID: 0, time stamp: 204, AID: 4, Transporter created.
+ThreadID: 0000790c00700000, MID: 0, TID: 4, SID: 0, FID: 0, time stamp: 274, AID: 4, Transporter created.
+ThreadID: 0030810c00700000, MID: 0, TID: 0, SID: 1, FID: 0, time stamp: 1086, AID: 9, Smelter created.
+ThreadID: 0070600c00700000, MID: 2, TID: 1, SID: 0, FID: 0, time stamp: 1089, AID: 5, Transporter is traveling to miner.
+ThreadID: 0040580c00700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1104, AID: 2, Miner finished mining Coal, current capacity: 1/2.
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1109, AID: 2, Miner finished mining Iron, current capacity: 1/2.
+ThreadID: 0060890c00700000, MID: 0, TID: 0, SID: 0, FID: 1, time stamp: 1136, AID: 13, Foundry created.
+ThreadID: 0040580c00700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1238, AID: 1, Miner started mining Coal, current capacity: 1/2.
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1248, AID: 1, Miner started mining Iron, current capacity: 1/2.
+ThreadID: 0040580c00700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 1372, AID: 2, Miner finished mining Coal, current capacity: 2/2.
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1382, AID: 2, Miner finished mining Iron, current capacity: 2/2.
+ThreadID: 0070600c00700000, MID: 2, TID: 1, SID: 0, FID: 0, time stamp: 1509, AID: 6, Transporter take Coal from miner, current fill 1/2.
+ThreadID: 0040580c00700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 2062, AID: 1, Miner started mining Coal, current capacity: 1/2.
+ThreadID: 00a0680c00700000, MID: 1, TID: 2, SID: 0, FID: 0, time stamp: 2065, AID: 5, Transporter is traveling to miner.
+ThreadID: 0040580c00700000, MID: 2, TID: 0, SID: 0, FID: 0, time stamp: 2239, AID: 2, Miner finished mining Coal, current capacity: 2/2.
+ThreadID: 00a0680c00700000, MID: 1, TID: 2, SID: 0, FID: 0, time stamp: 2506, AID: 6, Transporter take Iron from miner, current fill 1/2.
+ThreadID: 00a0680c00700000, MID: 0, TID: 2, SID: 0, FID: 1, time stamp: 3061, AID: 5, Transporter is traveling to foundry, carrying: Iron.
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 3070, AID: 1, Miner started mining Iron, current capacity: 1/2.
+ThreadID: 0000790c00700000, MID: 1, TID: 4, SID: 0, FID: 0, time stamp: 3077, AID: 5, Transporter is traveling to miner.
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 3220, AID: 2, Miner finished mining Iron, current capacity: 2/2.
+ThreadID: 0000790c00700000, MID: 1, TID: 4, SID: 0, FID: 0, time stamp: 3561, AID: 6, Transporter take Iron from miner, current fill 1/2.
+ThreadID: 00a0680c00700000, MID: 0, TID: 2, SID: 0, FID: 1, time stamp: 3561, AID: 7, Transporter put Iron ore to foundry. Waiting Ore coal: (0/4), iron: (0/4).
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 4229, AID: 1, Miner started mining Iron, current capacity: 1/2.
+ThreadID: 00d0700c00700000, MID: 1, TID: 3, SID: 0, FID: 0, time stamp: 4237, AID: 5, Transporter is traveling to miner.
+ThreadID: 0000790c00700000, MID: 0, TID: 4, SID: 1, FID: 0, time stamp: 4276, AID: 5, Transporter is traveling to smelter, carrying: Iron.
+ThreadID: 0010500c00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 4403, AID: 2, Miner finished mining Iron, current capacity: 2/2.
+ThreadID: 0010500c00

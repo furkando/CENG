@@ -1,0 +1,7 @@
+if (x+1,y) `elem` (arro ar (simulatore ar (hp ar) 0) 0 [])!!n then  else (
+if (x-1,y) `elem` (arro ar (simulatore ar (hp ar) 0) 0 [])!!n then  else (
+if (x,y-1) `elem` (arro ar (simulatore ar (hp ar) 0) 0 [])!!n then  else (
+if (x,y+1) `elem` (arro ar (simulatore ar (hp ar) 0) 0 [])!!n then  else (
+
+
+    [[P (Prey 1 70 [S]) , O, X, P (Prey 2 100 [N]) ] , [T, O, H (Hunter 1 Expert 90 2 [E]), O],[H (Hunter 2 Newbie 70 0 [E]) , O, X, O]]

@@ -1,0 +1,24 @@
+Results for student e1.
+Testcase1: OK.
+Testcase2: OK.
+Testcase3: OK.
+Testcase4: OK.
+Testcase5: OK.
+Testcase6: OK.
+Testcase7: OK.
+Testcase8: OK.
+Testcase9: OK.
+Testcase10: OK.
+Testcase11: OK.
+Testcase12: OK.
+Testcase13: OK.
+Testcase14: OK.
+Testcase15: OK.
+Testcase16: OK.
+Testcase17: OK.
+Testcase18: OK.
+Testcase19: Failed.
+Smelter: 1 still has 2 ore left to smelt.
+Testcase20: Failed.
+Unrecognized output from the user.
+Grade: 90.000000

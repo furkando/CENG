@@ -1,0 +1,32 @@
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 157, AID: 0, Miner created.
+ThreadID: 0080570e00700000, MID: 0, TID: 1, SID: 0, FID: 0, time stamp: 201, AID: 4, Transporter created.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 240, AID: 1, Miner started mining Copper, current capacity: 0/3.
+ThreadID: 00b05f0e00700000, MID: 0, TID: 2, SID: 0, FID: 0, time stamp: 241, AID: 4, Transporter created.
+ThreadID: 00e0670e00700000, MID: 0, TID: 0, SID: 1, FID: 0, time stamp: 283, AID: 9, Smelter created.
+ThreadID: 0010700e00700000, MID: 0, TID: 0, SID: 0, FID: 1, time stamp: 318, AID: 13, Foundry created.
+ThreadID: 0080570e00700000, MID: 1, TID: 1, SID: 0, FID: 0, time stamp: 397, AID: 5, Transporter is traveling to miner.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 415, AID: 2, Miner finished mining Copper, current capacity: 1/3.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 554, AID: 1, Miner started mining Copper, current capacity: 1/3.
+ThreadID: 0080570e00700000, MID: 1, TID: 1, SID: 0, FID: 0, time stamp: 666, AID: 6, Transporter take Copper from miner, current fill 0/3.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 690, AID: 2, Miner finished mining Copper, current capacity: 1/3.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 826, AID: 1, Miner started mining Copper, current capacity: 1/3.
+ThreadID: 00b05f0e00700000, MID: 1, TID: 2, SID: 0, FID: 0, time stamp: 947, AID: 5, Transporter is traveling to miner.
+ThreadID: 0080570e00700000, MID: 0, TID: 1, SID: 1, FID: 0, time stamp: 950, AID: 5, Transporter is traveling to smelter, carrying: Copper.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 965, AID: 2, Miner finished mining Copper, current capacity: 2/3.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1102, AID: 1, Miner started mining Copper, current capacity: 2/3.
+ThreadID: 00b05f0e00700000, MID: 1, TID: 2, SID: 0, FID: 0, time stamp: 1208, AID: 6, Transporter take Copper from miner, current fill 1/3.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1223, AID: 2, Miner finished mining Copper, current capacity: 2/3.
+ThreadID: 0080570e00700000, MID: 0, TID: 1, SID: 1, FID: 0, time stamp: 1223, AID: 7, Transporter put Copper ore to smelter. Waiting Ore 1/4.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1480, AID: 1, Miner started mining Copper, current capacity: 2/3.
+ThreadID: 0080570e00700000, MID: 1, TID: 1, SID: 0, FID: 0, time stamp: 1530, AID: 5, Transporter is traveling to miner.
+ThreadID: 00b05f0e00700000, MID: 0, TID: 2, SID: 1, FID: 0, time stamp: 1539, AID: 5, Transporter is traveling to smelter, carrying: Copper.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 1621, AID: 2, Miner finished mining Copper, current capacity: 3/3.
+ThreadID: 0080570e00700000, MID: 1, TID: 1, SID: 0, FID: 0, time stamp: 1758, AID: 6, Transporter take Copper from miner, current fill 2/3.
+ThreadID: 00b05f0e00700000, MID: 0, TID: 2, SID: 1, FID: 0, time stamp: 1762, AID: 7, Transporter put Copper ore to smelter. Waiting Ore 2/4.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 2087, AID: 1, Miner started mining Copper, current capacity: 2/3.
+ThreadID: 0080570e00700000, MID: 0, TID: 1, SID: 1, FID: 0, time stamp: 2104, AID: 5, Transporter is traveling to smelter, carrying: Copper.
+ThreadID: 00b05f0e00700000, MID: 1, TID: 2, SID: 0, FID: 0, time stamp: 2108, AID: 5, Transporter is traveling to miner.
+ThreadID: 00e0670e00700000, MID: 0, TID: 0, SID: 1, FID: 0, time stamp: 2092, AID: 10, Smelter started producing Copper ingot. Waiting Ore 0/4.
+ThreadID: 00504f0e00700000, MID: 1, TID: 0, SID: 0, FID: 0, time stamp: 2256, AID: 2, Miner finished mining Copper, current capacity: 3/3.
+ThreadID: 0080570e00700000, MID: 0, TID: 1, SID: 1, FID: 0, time stamp: 2389, AID: 7, Transporter put Copper ore to smelter. Waiting Ore 1/4.
+ThreadID: 00b05f0e00700000, MI

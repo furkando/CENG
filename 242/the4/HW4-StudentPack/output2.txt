@@ -1,0 +1,123 @@
+All Stream Test has started. (Max Grade: 0)
+----00
+--HH--
+----01
+-- START ROUND 1 --
+Pacifist00(100) moved LEFT.
+Tracer01(100) moved UP.
+-- END ROUND 1 --
+--00--
+--HH01
+------
+-- START ROUND 2 --
+Pacifist00(100) moved DOWN.
+Tracer01(100) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 2 --
+------
+--0001
+------
+-- START ROUND 3 --
+Tracer01(100) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 3 --
+------
+--0001
+------
+-- START ROUND 4 --
+Tracer01(100) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 4 --
+------
+--0001
+------
+-- START ROUND 5 --
+Tracer01(100) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 5 --
+------
+--0001
+------
+-- START ROUND 6 --
+Tracer01(100) is STORMED! (-5)
+Tracer01(95) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 6 --
+------
+--0001
+------
+-- START ROUND 7 --
+Tracer01(95) is STORMED! (-5)
+Tracer01(90) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 7 --
+------
+--0001
+------
+-- START ROUND 8 --
+Tracer01(90) is STORMED! (-5)
+Tracer01(85) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 8 --
+------
+--0001
+------
+-- START ROUND 9 --
+Tracer01(85) is STORMED! (-5)
+Tracer01(80) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 9 --
+------
+--0001
+------
+-- START ROUND 10 --
+Tracer01(80) is STORMED! (-5)
+Tracer01(75) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 10 --
+------
+--0001
+------
+-- START ROUND 11 --
+Tracer01(75) is STORMED! (-10)
+Tracer01(65) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 11 --
+------
+--0001
+------
+-- START ROUND 12 --
+Tracer01(65) is STORMED! (-10)
+Tracer01(55) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 12 --
+------
+--0001
+------
+-- START ROUND 13 --
+Tracer01(55) is STORMED! (-10)
+Tracer01(45) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 13 --
+------
+--0001
+------
+-- START ROUND 14 --
+Tracer01(45) is STORMED! (-10)
+Tracer01(35) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 14 --
+------
+--0001
+------
+-- START ROUND 15 --
+Tracer01(35) is STORMED! (-10)
+Tracer01(25) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 15 --
+------
+--0001
+------
+-- START ROUND 16 --
+Tracer01(25) is STORMED! (-15)
+Tracer01(10) ATTACKED Pacifist00(100)! (-0)
+-- END ROUND 16 --
+------
+--0001
+------
+-- START ROUND 17 --
+Tracer01(10) is STORMED! (-15)
+Tracer01(-5) DIED.
+-- END ROUND 17 --
+------
+--00--
+------
+Pacifist00 won!!!
+
+All Stream Test has finished. (Earned Grade: 0)

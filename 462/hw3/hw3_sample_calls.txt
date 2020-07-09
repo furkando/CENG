@@ -1,0 +1,8 @@
+>>> theorem_prover(["p(A,f(t))", "q(z)+~p(z,f(B))", "~q(y)+r(y)"],["~r(A)"]) 
+('yes', ['~r(A)$~q(y)+r(y)$~q(A)', '~q(A)$q(z)+~p(z,f(B))$~p(A,f(B))', '~p(A,f(B))$p(A,f(t))$empty'])
+
+>>> theorem_prover(["p(A,f(t))", "q(z)+~p(z,f(B))", "q(y)+r(y)"],["~r(A)"]) 
+('no', [])
+
+('yes', ['~loves(John,Y)+~loves(John,Z)$~animal(x)+loves(John,x)$~animal(Y)+~loves(John,Z)', '~animal(Y)+~loves(John,Z)$animal(Y)$~loves(John,Z)', '~loves(John,Z)$~animal(x)+loves(John,x)$~animal(Z)', '~animal(Z)$animal(Z)$empty'])
+('yes', ['~loves(John,Y)+~loves(John,Z)$~animal(x)+loves(John,x)$~animal(Y)+~loves(John,Z)', '~animal(Y)+~loves(John,Z)$animal(Z)$~loves(John,Z)', '~loves(John,Z)$~animal(x)+loves(John,x)$~animal(Z)', '~animal(Z)$animal(Z)$empty'])

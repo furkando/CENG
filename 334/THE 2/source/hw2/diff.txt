@@ -1,0 +1,87 @@
+42c42
+< int fin = 0, x = 0;
+---
+> 
+97d96
+< pid+=rand();
+118d116
+< /*
+120d117
+< */while ((i != totalOre) && (!fin))
+122d118
+< pthread_mutex_lock(&mutexMiner);
+124d119
+< if (fin){pthread_mutex_unlock(&mutexMiner);break;}
+128d122
+< pthread_mutex_lock(&mutexTrans);/*
+130d123
+< */
+133d125
+< /*
+135d126
+< */pthread_mutex_unlock(&mutexTrans);
+141,142d131
+< pthread_mutex_unlock(&mutexMiner);
+< usleep(10);
+161d149
+< int p = 0, t = 0;
+170d157
+< usleep(200);
+208d194
+< p = 0;t = 0;for (int a = 0; a < max(smelters.size(), foundries.size()); a++){    if (a < smelters.size())if (smelters[a][0] == -1)p++;if (a < foundries.size())if (foundries[a][0] == -1)t++;}if ((p + t) == (foundries.size() + smelters.size())){pthread_mutex_unlock(&mutexTrans);break;}
+262d247
+< /*
+281d265
+< */
+283d266
+< /*
+285d267
+< */
+339d320
+< /*
+359d339
+< */
+361d340
+< /* 
+363d341
+< */
+460d437
+< /*
+493d469
+< */
+495d470
+< /* 
+497d471
+< */
+517d490
+< pthread_mutex_lock(&mumumutex);FillTransporterInfo(&transporterInfo, ID, &carriedOre);WriteOutput(NULL, &transporterInfo, NULL, NULL, TRANSPORTER_STOPPED);x++;if (x == transporters.size()){fin = 1;for (int i = 0; i < miners.size(); i++){sem_post(minerEmpty[i]);}}
+524d496
+< pthread_mutex_unlock(&mumumutex);
+554d525
+< /*
+559d529
+< */
+576d545
+< /*
+579d547
+< */
+592d559
+< /*
+594,595d560
+< */
+< sem_post(transPorter[0]);
+646d610
+< /*
+648d611
+< */
+662d624
+< /*
+664,665d625
+< */
+< sem_post(transPorter[0]);
+683d642
+< /*
+686d644
+< */sprintf(fullString, "%d-tpt-%d", pid, tid);sprintf(smellString, "%d-smlt-%d",pid, tid);
+687a646
+> 

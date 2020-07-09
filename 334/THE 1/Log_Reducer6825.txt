@@ -1,0 +1,1 @@
+stderr is not opened read_only. Stop reading 0

@@ -1,0 +1,17 @@
+Receive encoder response
+Update your current position and rotation
+Receive sensor response
+Update map
+if you have explored all the cells
+	then END
+else 
+	followRightBorder
+	
+
+followRightBorder:
+	if there are no obstacles on your right 
+		then TURN RIGHT and MOVE FORWARD
+	else if there are no obstacles in front of you 
+		then MOVE FORWARD
+	else
+		TURN LEFT
