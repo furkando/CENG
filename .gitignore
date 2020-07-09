@@ -2,6 +2,7 @@ vgcore.*
 *.h5
 db.*
 *.jar
+*.war
 *.pkl
 *.tar
 *.img
@@ -27,3 +28,5 @@ db.*
 *.vscode
 *.img
 *_DS_Store
+*.idea
+*.settings
