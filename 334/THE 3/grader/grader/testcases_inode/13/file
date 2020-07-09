@@ -1,0 +1,10 @@
+Directories
+This definition comes from the Linux Kernel Documentation with some minor alterations.
+
+A directory is a filesystem object and has an inode just like a file. It is a specially formatted file containing records which associate each name with an inode number. Later revisions of the filesystem also encode the type of the object (file, directory, symlink, device, fifo, socket) to avoid the need to check the inode itself for this information
+
+The inode allocation code should try to assign inodes which are in the same block group as the directory in which they are first created.
+
+The original Ext2 revision used singly-linked list to store the filenames in the directory; newer revisions are able to use hashes and binary trees.
+
+Also note that as directory grows additional blocks are assigned to store the additional file records. When filenames are removed, some implementations do not free these additional blocks.

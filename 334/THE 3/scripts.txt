@@ -1,0 +1,3 @@
+dd if=/dev/zero of=image.img bs=1024 count=128
+mke2fs -N 32 image.img 
+sudo fuse-ext2 image.img mnt/ -o rw+

@@ -1,0 +1,8 @@
+Implementation (Embedding to GENI)\\
+We have given an .xml file which consists the nodes, interfaces and IPs' of them. We have created a slice which named as TPPart1Group26 and added .xml to RSpect then our topology has been created.\\
+We have decided to use Stanford Instageni Site which has available VMs more than we need.\\
+After, we have created a ssh key to connect these VMs locally from terminal. Ssh key must be added to our keys before usage, to do this:\\
+ssh-add id\_geni\_ssh\_rsa\\
+To connect each VM, we connect specific VM from Stanford IntaGENI by ssh(by specifying user-name, host and port).\\
+After establishing the connection to VMs, we need to embed our code. We have written Python scripts for all nodes and use GIT for developing. We have cloned our codes to each VM then run specific scripts on each VMs. Finally all we need to do is running the scripts with paying attention to running source's script at the end(Required since script for source node send message automatically just after it runs.).\\
+In our output we are able to see the time difference between the message's sent time and delivery time, and also we are able to see on which router the message came to the destination.

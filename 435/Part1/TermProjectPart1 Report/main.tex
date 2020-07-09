@@ -1,0 +1,72 @@
+%% This is a skeleton file demonstrating the use of IEEEtran.cls (requires IEEEtran.cls version 1.8a or later) with an IEEE conference paper.
+
+%package list
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\graphicspath{ {images/} }
+
+\begin{document}
+
+%Here goes the title
+
+\title{CENG 435 Term Project Part-1 Group-26 Report}
+
+%Authors List
+
+\author
+{\IEEEauthorblockN{\textbf{Sinan Talha KOSAR}}
+\IEEEauthorblockA{Computer Engineering\\
+Middle East Technical University\\
+ANKARA\\
+e2099190@ceng.metu.edu.tr}
+\and
+\IEEEauthorblockN{\textbf{FURKAN DOGAN}}
+\IEEEauthorblockA{Computer Engineering\\
+Middle East Technical University\\
+ANKARA\\
+e2098937@ceng.metu.edu.tr}
+}
+\maketitle
+
+
+%Main body starts
+
+\begin{abstract}
+\label{abstract}
+\input{sections/0_abstract.tex}
+
+\end{abstract}
+
+\begin {keywords}
+TCP, UDP, NTP, Broker, Router, Interface, IP, Port, end-to-end delay, netem-tc
+\end{keywords}
+
+\section{Introduction}
+\label{intro}
+\input{sections/1_introduction.tex}
+
+\section{Design Part}
+\label{section2}
+\input{sections/2_section.tex}
+
+\section{Implementation Part}
+\label{section3}
+\input{sections/3_section.tex}
+
+
+\section{Experiment Part}
+\label{section4}
+\input{sections/4_section.tex}
+	
+\section{Conclusion}
+\label {conclusion}
+\input{sections/5_conclusion.tex}
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+\end{document}

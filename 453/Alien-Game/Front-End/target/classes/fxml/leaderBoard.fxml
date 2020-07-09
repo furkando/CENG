@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0"
+            prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LeaderBoardController">
+    <ImageView fitHeight="821.0" fitWidth="612.0">
+        <Image url="@../images/background.png"/>
+    </ImageView>
+    <Text fill="#d02424" layoutX="141.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leader Board"
+          textAlignment="CENTER" wrappingWidth="317.2060546875" AnchorPane.leftAnchor="141.0"
+          AnchorPane.rightAnchor="141.7939453125" AnchorPane.topAnchor="55.0">
+        <font>
+            <Font name="Arial Bold" size="36.0"/>
+        </font>
+    </Text>
+    <TableView fx:id="weeklyTableView" layoutX="23.0" layoutY="189.0" prefHeight="386.0" prefWidth="268.0"
+               AnchorPane.leftAnchor="23.0"
+               AnchorPane.topAnchor="189.0">
+        <columns>
+            <TableColumn fx:id="weeklyUserColumn" prefWidth="132.0" text="User Name"/>
+            <TableColumn fx:id="weeklyScoreColumn" prefWidth="197.0" text="Score"/>
+        </columns>
+    </TableView>
+    <TableView fx:id="allTimeTableView" layoutX="310.0" layoutY="189.0" prefHeight="386.0" prefWidth="267.0"
+               AnchorPane.rightAnchor="23.0"
+               AnchorPane.topAnchor="189.0">
+        <columns>
+            <TableColumn fx:id="allTimeUserColumn" minWidth="0.0" prefWidth="139.0" text="User Name"/>
+            <TableColumn fx:id="allTimeScoreColumn" editable="false" minWidth="0.0" prefWidth="190.0"
+                         sortType="DESCENDING" text="Score"/>
+        </columns>
+    </TableView>
+    <Text fill="#d02424" layoutX="-5.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weekly"
+          textAlignment="CENTER" wrappingWidth="317.2060546875">
+        <font>
+            <Font name="Arial Bold" size="36.0"/>
+        </font>
+    </Text>
+    <Text fill="#d02424" layoutX="285.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All Time"
+          textAlignment="CENTER" wrappingWidth="317.2060546875">
+        <font>
+            <Font name="Arial Bold" size="36.0"/>
+        </font>
+    </Text>
+    <Button layoutX="138.0" layoutY="623.0" mnemonicParsing="false" onAction="#handleMainMenuButtonAction"
+            prefHeight="100.0" prefWidth="325.0" text="Main Menu" AnchorPane.leftAnchor="138.0"
+            AnchorPane.rightAnchor="137.0">
+        <font>
+            <Font name="Arial Bold" size="24.0"/>
+        </font>
+    </Button>
+</AnchorPane>

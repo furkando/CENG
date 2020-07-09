@@ -1,0 +1,51 @@
+We have already given a topology of a network that we will build our experiment on. Visual examination of topology is shown below (Fig. 1.)\\
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=.45]{topology.png}
+    \caption{The structure of topology}
+    \label{fig:topology}
+\end{figure}
+
+*Note : All of the examples below are from code that we have written for the source node and one of the router
+
+Each node has interfaces for incoming and outgoing connections with unique IP addresses. We are asked to design TCP connection between source and broker and UDP connection at remaining. We have used python socket module in-order to do the job. Example usages for both TCP and UDP in python socket module is shown below:\\
+.socket(socket.AF\_INET, \#Internet (IPv4)\\
+    socket.SOCK\_STREAM) $=>$ For TCP \\
+.socket(socket.AF\_INET, \#Internet (IPv4)\\
+    socket.SOCK\_DGRAM) $=>$ For UDP \\
+We are using socket.AF\_INET (Since we have given specification "IPv4"). So it expects a 2-tuple: (host, port).\\
+
+After making necessary coding, we have managed to sent messages between source and destination. Since the main goal of this experiment is working on end-to-end delay and examine them, we have decided to send time as message. By doing so, we are able to sent message and calculate the end-to-end delay by using our message.\\
+
+We have faced a problem at this stage, the clocks for both source and destination are not synchronized.\\
+To over come, we have used Network Time Protocol (NTP), which is a protocol used to synchronize computer clock times in a network. Online, there is lots of NTP servers available, so to decide which to use, we have used "ping" command for each NTP server. "ping \_IPaddress of NTP Server\_ sends a package to server and waits for response and we are able to see the round-trip time in milliseconds for each ping. So Google's NTP server seems more faster to us than the others. We have decided to use NTP server of Google (time.google.com).\\
+\\
+\\
+To use in python script, the is a library called "ntplib", after importing it usage is below:\\
+c = ntplib.NTPClient() \\
+response = c.request('time.google.com')\\
+timer = response.tx\_time\\
+
+$*$ While using NTP Server to synchronize the clocks, we have taught whether the delays between source-NTP and destination-NTP are same? Just to be sure, we used ping command on both source and destination VMs, and difference between round-trip time is nearly at most 0.1 ms, which we will neglect from now on.\\
+
+In our network packets must be send as strings. So, we have convert time to string then send it.\\
+$>>$ MESSAGE = repr(timer)\\
+
+We have sent $100$ messages from source to broker and from broker we have sent same $100$ messages to router 1 and router 2. At the end, $200$ messages came to our destination. \\
+
+$*$ Sending $100$ messages are decided by ourselves, since it is an experiment, the more message we sent, more accurate examination we can done.\\
+
+At this point, we have faced another problem. When we try to request time for each packet which is $100$ times. NTP server times-out because of lots of requests. To overcome, we have added time.sleep(1) between each $10$ messages.\\
+
+Following paragraph is operative for all node's script although it's focusing on broker node.\\
+
+There are ports for each sender nodes and listeners. The port for sender and receiver, which are operating between, must be same to catch the packet. In general, random free ports are from 1024 to 65535. That's why we have picked port numbers between these interval.
+Our message which consists time as string should be converted to float to be able to make calculations on them.\\
+Briefly, our scripts work like:\\
+Source node establish TCP connection to broker, takes time from NTP Server, converts it as string and send it.\\
+Broker accepts TCP connection, gets the packets and establish UDP connections to router 1 and router 2 then forwards the packets.\\
+Each router accept UDP connection, and forwards packets to destination node by establishing UDP connection.\\
+Finally, destination node accepts UDP connections and gets the packages. Immediately after, takes the time from NTP server and compare the time to find end-to-end delay.\\
+Design of Broker\\
+In the broker, we are accepting packets with TCP and forwarding packets with UDP. To handle both of these in the same script we had to create two different sockets.  To accept, we need to listen source node in same port that source node sends packets which is 12001 in our code and we need the IPs of interfaces belong to router 1 and router 2 and their port. We have accepted packet from source node and take it's message, then forwards by using socket which is implemented for UDP, to forward the routers. To forward, again we need to forward packets 10 by 10 to overcome the time-out from NTP Server.\\

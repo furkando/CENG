@@ -1,0 +1,6 @@
+How to Play Allien Game:
+
+Use 'W' to go up, 'S' to go down, 'D' to go right and 'A' to go to left.
+Use 'Space' to fire.
+
+That's all. Have fun :)

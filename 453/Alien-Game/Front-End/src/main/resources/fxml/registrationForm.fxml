@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0"
+            prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.RegistrationController">
+    <ImageView fitHeight="821.0" fitWidth="612.0">
+        <Image url="@../images/background.png"/>
+    </ImageView>
+    <Text fill="#d02424" layoutX="141.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration Form"
+          textAlignment="CENTER" wrappingWidth="317.2060546875" AnchorPane.leftAnchor="141.0"
+          AnchorPane.rightAnchor="141.7939453125" AnchorPane.topAnchor="55.0">
+        <font>
+            <Font name="Arial Bold" size="36.0"/>
+        </font>
+    </Text>
+    <AnchorPane layoutX="118.0" layoutY="98.0" prefHeight="559.0" prefWidth="377.0" AnchorPane.bottomAnchor="164.0"
+                AnchorPane.leftAnchor="117.5" AnchorPane.rightAnchor="117.5" AnchorPane.topAnchor="98.0">
+        <ImageView fitHeight="74.0" fitWidth="130.0" layoutX="123.5" layoutY="98.0" AnchorPane.leftAnchor="123.5"
+                   AnchorPane.rightAnchor="123.5">
+            <Image url="@../images/alien.png"/>
+        </ImageView>
+        <Text fill="WHITE" layoutX="74.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+            <font>
+                <Font name="Arial" size="18.0"/>
+            </font>
+        </Text>
+        <TextField fx:id="nameField" layoutX="73.0" layoutY="251.0" prefHeight="38.0" prefWidth="230.0"
+                   AnchorPane.leftAnchor="73.0" AnchorPane.rightAnchor="74.0"/>
+        <Text fill="WHITE" layoutX="74.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+            <font>
+                <Font name="Arial" size="18.0"/>
+            </font>
+        </Text>
+        <PasswordField fx:id="passwordField" layoutX="73.0" layoutY="401.0" prefHeight="38.0" prefWidth="230.0"
+                       AnchorPane.leftAnchor="73.0" AnchorPane.rightAnchor="74.0"/>
+        <Button fx:id="submitButton" layoutX="74.0" layoutY="464.0" mnemonicParsing="false"
+                onAction="#handleSubmitButtonAction" prefHeight="27.0" prefWidth="99.0" text="Register"/>
+        <Button layoutX="192.0" layoutY="464.0" mnemonicParsing="false" onAction="#handleCancelButtonAction"
+                prefHeight="27.0" prefWidth="99.0" text="Cancel"/>
+        <TextField fx:id="emailField" layoutX="73.0" layoutY="329.0" prefHeight="38.0" prefWidth="218.0"/>
+        <Text fill="WHITE" layoutX="74.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+            <font>
+                <Font name="Arial" size="18.0"/>
+            </font>
+        </Text>
+    </AnchorPane>
+</AnchorPane>

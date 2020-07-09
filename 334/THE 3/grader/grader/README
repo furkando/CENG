@@ -1,0 +1,25 @@
+-create a directory in this path (i.e. e123456)
+-put all of your files and makefile under it
+-put grader.sh under it
+-it should look like this:
+
+|-grader:
+|---testcases_path
+|---testcases_inode
+|---e123456:
+|------makefile
+|------sourcefile(s)
+|------header(s)
+|------grader.sh
+
+running grader.sh in this configuration will give you your grade. you can find detailed information in each testcase directory(i.e. differences between data and metadata of the original file and copied file and fsck result). you can find execution arguments in distinct sh file of each tesetcase. this was a quick evaluation, so please feel free to warn me if you think there are any errors.
+
+grading is performed for a task as follows:
+	a: data of the original file and the copied file are same or not (returns 0 or 1)
+	b: metadata of the original file and the copied file are same or not(returns 0 or 1)
+	c: if image is clean (checked via fsck)
+
+	task_grade : task_weight*(a+b)/2 if c else 0.7*task_weight*(a+b)/2
+	
+
+note that task weight is either 4 or 5, you can check the pdf.

@@ -1,0 +1,4 @@
+stat $1 | sed -n '2p' | cut -c1-15 
+stat $1 | sed -n '4p' 
+stat $1 | sed -n '5,6p' | cut -c1-18
+

@@ -1,0 +1,32 @@
+-create a directory in this path (i.e. e123456)
+-put all of your files and makefile under it
+-put grader.sh under it
+-it should look like this:
+
+|-grader:
+|---testcases_recursive
+|---testcases_indirect
+|---e123456:
+|------makefile
+|------sourcefile(s)
+|------header(s)
+|------grader.sh
+
+running grader.sh in this configuration will give you your grade. you can find detailed information in each testcase directory(i.e. differences between data and metadata of the original file and copied file and fsck result). you can find execution arguments in distinct sh file of each testcase. 
+
+grading is performed for a task as follows:
+	recursive part:
+		a: data of the original file and the copied file are same or not (returns 0 or 1)
+		b: metadata of the original file and the copied file are same or not(returns 0 or 1)
+		c: if image is clean (checked via fsck)
+		d: if the result of 'ls -R' is correct
+
+		task_grade : task_weight*(a+b+d)/3 if c else 0.7*task_weight*(a+b+d)/3
+		
+	indirect part:
+                a: data of the original file and the copied file are same or not (returns 0 or 1)
+                c: if image is clean (checked via fsck)
+
+                task_grade : task_weight*a if c else 0.7*task_weight*a
+
+note that weight of each task is 5.

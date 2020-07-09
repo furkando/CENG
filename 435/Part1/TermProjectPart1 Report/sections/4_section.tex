@@ -1,0 +1,43 @@
+After calculating the end-to-end delay, we have calculated the confidence interval for exp0, exp1, exp2 and exp3.\\
+exp0 indicates that results without emulated delay\\
+exp1 indicates that emulated delay with 1ms $\pm$ 5ms \\
+exp2 indicates that emulated delay with 20ms $\pm$ 5ms\\
+exp3 indicates that emulated delay with 60ms $\pm$ 5ms\\
+using tc qdisc add dev "interface\_name" root netem delay "delay" "error\_rate" on terminal\\
+Then we have used tool to calculate $95\%$ confidence interval from
+\href{https://www.mathsisfun.com/data/confidence-interval-calculator.html}{$Confidence\_Interval\_Calculator$}
+for each of the different communication, where we have inserted our outputs as raw-data then it gives interval with $95\%$ confidence. For each exp the $95\%$ confidence intervals are:\\
+exp0 $=>$ $118 \pm 1.82$\\
+exp1 $=>$ $149 \pm 1.84$\\
+exp2 $=>$ $157 \pm 1.06$\\
+exp3 $=>$ $252 \pm 2.44$\\
+\\
+\\
+\\
+\\
+After that, to plot the graphic we have used math-lab, code is below:\\
+$>>$ x = [0,1,20,60]\\
+$>>$ y = [118,149,157,252]\\
+$>>$ err = [1.82,1.84,1.06,2.44]\\
+$>>$ figure\\
+$>>$ errorbar(x,y,err)\\
+$>>$ grid on\\
+$>>$ xlabel('Network Emulation Delay (ms)')\\
+$>>$ ylabel('End to End Delay (ms)')\\
+$>>$ legend('Delay')\\
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=.25]{images/graphic.png}
+    \caption{The graph of Network Emulation Delay vs End-to-End Delay with a $95\%$ confidence interval}
+    \label{fig:graphic}
+\end{figure}
+
+The delay in our experiment may be caused because of:\\
+\begin{itemize}
+\item Our added emulated delay
+\item Congestion of used network
+\end {itemize}
+
+As we can see in the graph, when we have increased emulated delay, end-to-end delay is also increased. The reason of increase between exp0 and exp1 might because of congestion of network. The increase between exp1-exp2 and exp2-exp3 are proportional to our emulated delay variables. The network can be re-designed according to needs, when we need to make it faster we can use UDP instead of TCP but when reliability comes in TCP is what we need.
+
